@@ -1,5 +1,5 @@
 # User/Group/Passwd (temp)
-USER_NAME=arda
+USER_NAME=test
 USER_PASSWORD=test
 USER_GROUP=developer
 TARGET:=R_package_install.R Dockerfile
