@@ -1,0 +1,6 @@
+# docker image for Jupyter
+
+Windows11上のWSLでGPUが使えるようになったので、jupyter environmentをDockerで動かしてみよう・・・
+
+とりあえず、Dockerfileを作るためにMakefileを適当にいじって、makeしてください。
+(Dockerfile以外のファイルもいじる必要があったので、makeを使っています。)

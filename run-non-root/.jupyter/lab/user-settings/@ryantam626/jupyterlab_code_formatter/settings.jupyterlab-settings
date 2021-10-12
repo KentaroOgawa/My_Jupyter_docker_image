@@ -1,0 +1,8 @@
+{
+    "preferences": {
+        "default_formatter": {
+            "python": ["isort", "black"],
+            "R": ["styler", "formatR"],
+        }
+    }
+}
