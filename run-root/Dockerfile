@@ -141,6 +141,8 @@ RUN pip install --no-cache-dir jupyter_gauche \
 RUN julia -e 'ENV["PYTHON"]="/usr/local/bin/python3"; using Pkg; Pkg.add("PyCall")'
 # install jupyter
 RUN julia -e 'using Pkg; Pkg.add("IJulia"); using IJulia'
+# install Pluto
+RUN julia -e 'using Pkg; Pkg.add("Pluto"); using Pluto'
 # install PyPlot and Sympy
 RUN julia -e 'using Pkg; Pkg.add("PyPlot"); using PyPlot'
 # install SymPy
